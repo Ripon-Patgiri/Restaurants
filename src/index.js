@@ -1,1 +1,1 @@
-// alert("Trial")
+import "./pageload";
