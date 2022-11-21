@@ -1,13 +1,13 @@
 let content = document.getElementById('content');
 
-function displayHome() {
+function displayContact() {
   content.innerHTML = '';
   let mainLine = document.createElement("p");
-  mainLine.innerText = "Enjoy Traditional Assamese Dish";
+  mainLine.innerText = "Contact Me Here";
   let subLine = document.createElement("p");
-  subLine.innerText = "Picture of Stereotypical Assamese Dish";
+  subLine.innerText = "7002758935";
   content.appendChild(mainLine);
   content.appendChild(subLine);
 }
 
-export  { displayHome};
+export  { displayContact};
