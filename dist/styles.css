@@ -11,3 +11,12 @@ body {
     background-color: darkred;
     color: greenyellow;
 }
+
+.header { 
+  text-align: center;
+}
+
+.nav {
+   display: flex;
+   justify-content: center;  
+}
