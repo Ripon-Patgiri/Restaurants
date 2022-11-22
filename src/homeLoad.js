@@ -1,3 +1,5 @@
+import image from './maindish.jpg';
+
 const content = document.getElementById("content");
 const homeBtn = document.getElementById("homeBtn");
 const menuBtn = document.getElementById("menuBtn");
@@ -11,11 +13,17 @@ function displayHome() {
   const subcontainer = document.createElement("div");
   subcontainer.classList.add("subcontainer");
   let mainLine = document.createElement("p");
-  mainLine.innerText = "Enjoy Traditional Assamese Dish";
+  mainLine.innerText = "Enjoy Traditional Assamese Dishes";
+  mainLine.classList.add('tagLine');
   let subImg = document.createElement("img");
-  subImg.src = "./Assamese_dish.JPG";
+  subImg.src = image;
+  subImg.classList.add('homeImg');
+  let bottomLine = document.createElement('p');
+  bottomLine.innerText = "Visit us or Order Online !!";
+  bottomLine.classList.add('bottomTxt');
   subcontainer.appendChild(mainLine);
   subcontainer.appendChild(subImg);
+  subcontainer.appendChild(bottomLine);
   content.appendChild(subcontainer);
 }
 

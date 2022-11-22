@@ -38,13 +38,16 @@ button {
 
 .subcontainer {
   width: 60vw;
-  border: 1px solid #0D0D0C;
+  border: 1px solid #F2F2F2;
   text-align: center;
   border-radius: 4px;
-  padding: 100px 100px 200px 100px;
-  line-height: 2;
+  padding: 25px 100px 50px 100px;
+  line-height: 3;
   background-color: #262625;
   color: #BABDBF;
+  -webkit-box-shadow: 0px 0px 20px -3px rgba(36,17,36,0.9);
+-moz-box-shadow: 0px 0px 20px -3px rgba(36,17,36,0.9);
+box-shadow: 0px 0px 20px -3px rgba(36,17,36,0.9);
 }
 
 #content {
@@ -67,8 +70,28 @@ button {
   background-color: #735F58;
 }
 
+.button:active { 
+  background-color: #0D0D0C;
+  color: #BABDBF;
+  border: 1px solid #BABDBF;
+}
+
 .BtnStyle { 
   background-color: #0D0D0C;
   color: #BABDBF;
   border: 1px solid #BABDBF;
+}
+
+.homeImg {
+  width: 500px;
+  border-radius: 100px;
+  border: 1px solid #BABDBF;
+}
+
+.tagLine {
+  font-size: 20px;
+}
+
+.bottomTxt { 
+  font-size: 20px;
 }
