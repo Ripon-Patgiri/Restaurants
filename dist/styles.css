@@ -43,6 +43,8 @@ button {
   border-radius: 4px;
   padding: 100px 100px 200px 100px;
   line-height: 2;
+  background-color: #262625;
+  color: #BABDBF;
 }
 
 #content {
@@ -50,4 +52,23 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.button {
+  padding: 5px 10px;
+  width: 100px;
+  background-color: #BABDBF;
+  color: #0D0D0C;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #735F58;
+}
+
+.BtnStyle { 
+  background-color: #0D0D0C;
+  color: #BABDBF;
+  border: 1px solid #BABDBF;
 }
