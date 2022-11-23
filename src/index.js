@@ -9,6 +9,7 @@ let contactBtn = document.getElementById('contactBtn');
 
 // let content = document.getElementById('content');
 
+displayHome();
 
 homeBtn.addEventListener('click', displayHome);
 menuBtn.addEventListener('click', displayMenu);

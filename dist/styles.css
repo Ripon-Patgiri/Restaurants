@@ -7,14 +7,21 @@
   box-sizing: border-box;
 }
 
+html{
+  position: relative;
+  min-height: 100%;
+}
+
 body {
     background-color: #BABDBF;
     color: #0D0D0C;
     font-family: 'Sono', sans-serif;
+    margin-bottom: 100px;
 }
 
 button {
   font-family: 'Sono', sans-serif;
+  cursor: pointer;
 }
 .header { 
   border: 1px solid #BABDBF;
@@ -94,4 +101,69 @@ box-shadow: 0px 0px 20px -3px rgba(36,17,36,0.9);
 
 .bottomTxt { 
   font-size: 20px;
+}
+
+.menuImg {
+  width: 300px;
+  border-radius: 200px;
+  border: 3px solid #BABDBF;
+}
+
+.menuImg:hover{
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.menuSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 40px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+  color: var(--textClr);
+  background-color: var(--titleFooterArea);
+  border: 1px solid var(--borderClr);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.fa-github {
+  color: wheat;
+  font-size: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fa-linkedin {
+  color: wheat;
+  font-size: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fa-wordpress {
+  color: wheat;
+  font-size: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fa-github:hover {
+  transform: rotate(360deg)scale(1.2);
+}
+
+.fa-linkedin:hover {
+  transform: rotate(360deg)scale(1.2);
+}
+
+.fa-wordpress:hover {
+  transform: rotate(360deg)scale(1.2);
 }
