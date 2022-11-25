@@ -131,27 +131,27 @@ box-shadow: 0px 0px 20px -3px rgba(36,17,36,0.9);
   gap: 10px;
   width: 100%;
   padding: 10px;
-  color: var(--textClr);
-  background-color: var(--titleFooterArea);
-  border: 1px solid var(--borderClr);
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  color: #BABDBF;
+  background-color: #0D0D0C;
+  border: 1px solid #BABDBF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .fa-github {
-  color: wheat;
+  color: #BABDBF;
   font-size: 24px;
   transition: transform 0.3s ease-in-out;
 }
 
 .fa-linkedin {
-  color: wheat;
+  color: #BABDBF;
   font-size: 24px;
   transition: transform 0.3s ease-in-out;
 }
 
 .fa-wordpress {
-  color: wheat;
+  color: #BABDBF;
   font-size: 24px;
   transition: transform 0.3s ease-in-out;
 }
@@ -166,4 +166,10 @@ box-shadow: 0px 0px 20px -3px rgba(36,17,36,0.9);
 
 .fa-wordpress:hover {
   transform: rotate(360deg)scale(1.2);
+}
+
+.mapImg {
+  width: 600px;
+  border-radius: 10px;
+  border: 2px dotted #BABDBF;
 }
